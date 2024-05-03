@@ -1,0 +1,1771 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+/* line 11, ../Relvise/src/sass/normalizes.scss */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+/* line 23, ../Relvise/src/sass/normalizes.scss */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+/* line 31, ../Relvise/src/sass/normalizes.scss */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+/* line 40, ../Relvise/src/sass/normalizes.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+/* line 53, ../Relvise/src/sass/normalizes.scss */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 64, ../Relvise/src/sass/normalizes.scss */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+/* line 76, ../Relvise/src/sass/normalizes.scss */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+/* line 85, ../Relvise/src/sass/normalizes.scss */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+/* line 95, ../Relvise/src/sass/normalizes.scss */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 105, ../Relvise/src/sass/normalizes.scss */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+/* line 116, ../Relvise/src/sass/normalizes.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+/* line 125, ../Relvise/src/sass/normalizes.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 133, ../Relvise/src/sass/normalizes.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 137, ../Relvise/src/sass/normalizes.scss */
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+/* line 148, ../Relvise/src/sass/normalizes.scss */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+/* line 160, ../Relvise/src/sass/normalizes.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+/* line 176, ../Relvise/src/sass/normalizes.scss */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+/* line 186, ../Relvise/src/sass/normalizes.scss */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+/* line 195, ../Relvise/src/sass/normalizes.scss */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+/* line 206, ../Relvise/src/sass/normalizes.scss */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+/* line 218, ../Relvise/src/sass/normalizes.scss */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+/* line 229, ../Relvise/src/sass/normalizes.scss */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+/* line 240, ../Relvise/src/sass/normalizes.scss */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+/* line 253, ../Relvise/src/sass/normalizes.scss */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+/* line 261, ../Relvise/src/sass/normalizes.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+/* line 270, ../Relvise/src/sass/normalizes.scss */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+/* line 280, ../Relvise/src/sass/normalizes.scss */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+/* line 290, ../Relvise/src/sass/normalizes.scss */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+/* line 299, ../Relvise/src/sass/normalizes.scss */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+/* line 308, ../Relvise/src/sass/normalizes.scss */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+/* line 320, ../Relvise/src/sass/normalizes.scss */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+/* line 328, ../Relvise/src/sass/normalizes.scss */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+/* line 339, ../Relvise/src/sass/normalizes.scss */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+/* line 347, ../Relvise/src/sass/normalizes.scss */
+[hidden] {
+  display: none;
+}
+
+/* line 1, ../Relvise/src/sass/resets.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 21, ../Relvise/src/sass/resets.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 25, ../Relvise/src/sass/resets.scss */
+html {
+  height: 100%;
+}
+
+/* line 28, ../Relvise/src/sass/resets.scss */
+body {
+  line-height: 1;
+}
+
+/* line 31, ../Relvise/src/sass/resets.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 34, ../Relvise/src/sass/resets.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 37, ../Relvise/src/sass/resets.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 42, ../Relvise/src/sass/resets.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 6, ../Relvise/src/sass/style.sass */
+* {
+  box-sizing: border-box;
+}
+
+/* line 8, ../Relvise/src/sass/style.sass */
+.ibg {
+  position: relative;
+}
+
+/* line 11, ../Relvise/src/sass/style.sass */
+.ibg img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 18, ../Relvise/src/sass/style.sass */
+html {
+  scroll-behavior: smooth;
+}
+
+/* line 20, ../Relvise/src/sass/style.sass */
+body {
+  color: #252B42;
+  background: #FAFAFA;
+  font-family: Montserrat;
+}
+
+/* line 24, ../Relvise/src/sass/style.sass */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* line 28, ../Relvise/src/sass/style.sass */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+/* line 33, ../Relvise/src/sass/style.sass */
+.container {
+  max-width: 1046px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: content-box;
+}
+
+/* line 40, ../Relvise/src/sass/style.sass */
+.header {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 50;
+}
+
+/* line 46, ../Relvise/src/sass/style.sass */
+.header__container {
+  display: flex;
+  min-height: 104px;
+  align-items: center;
+}
+
+/* line 50, ../Relvise/src/sass/style.sass */
+.header__logo {
+  margin: 0 133px 0 0;
+}
+
+/* line 52, ../Relvise/src/sass/style.sass */
+.menu {
+  padding: 5px 0;
+}
+
+/* line 54, ../Relvise/src/sass/style.sass */
+.menu__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* line 57, ../Relvise/src/sass/style.sass */
+.menu__link {
+  color: #737373;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: calc(24/14*100%);
+}
+
+/* line 62, ../Relvise/src/sass/style.sass */
+.menu__link:hover {
+  color: #909090;
+}
+
+/* line 66, ../Relvise/src/sass/style.sass */
+.menu__list-item:not(:last-child) {
+  margin: 0 20px 0 0;
+}
+
+/* line 68, ../Relvise/src/sass/style.sass */
+.title {
+  color: inherit;
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 0.1px;
+}
+
+/* line 73, ../Relvise/src/sass/style.sass */
+.text {
+  color: #737373;
+  letter-spacing: 0.2px;
+}
+
+/* line 76, ../Relvise/src/sass/style.sass */
+.text_w {
+  color: #FFFFFF;
+}
+
+/* line 79, ../Relvise/src/sass/style.sass */
+.page {
+  flex: 1 1 auto;
+}
+
+/* line 81, ../Relvise/src/sass/style.sass */
+.page__services {
+  position: relative;
+  z-index: 2;
+  margin: -111px 0 0 0;
+}
+
+/* line 86, ../Relvise/src/sass/style.sass */
+.main-block {
+  position: relative;
+}
+
+/* line 88, ../Relvise/src/sass/style.sass */
+.main-block__button:not(:last-child) {
+  margin: 0 10px 0 0;
+}
+
+/* line 90, ../Relvise/src/sass/style.sass */
+.main-block__text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+/* line 94, ../Relvise/src/sass/style.sass */
+.main-block__img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  object-fit: cover;
+}
+
+/* line 101, ../Relvise/src/sass/style.sass */
+.main-block__body {
+  padding: 184px 0 191px 0;
+  position: relative;
+  z-index: 2;
+  max-width: 400px;
+}
+
+/* line 106, ../Relvise/src/sass/style.sass */
+.main-block__body > *:not(:last-child) {
+  margin: 0 0 35px 0;
+}
+
+/* line 108, ../Relvise/src/sass/style.sass */
+.main-block__title {
+  font-size: 58px;
+  font-weight: 800px;
+  line-height: calc(80/58*100%);
+  letter-spacing: 0.2px;
+}
+
+/* line 113, ../Relvise/src/sass/style.sass */
+.main-block__buttons {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -10px 0;
+}
+
+/* line 117, ../Relvise/src/sass/style.sass */
+.main-block__button {
+  border-radius: 37px;
+  display: flex;
+  min-height: 48px;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 36px;
+  letter-spacing: 0.2px;
+  color: #FFF;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  transition: 0.3s all ease 0s;
+}
+
+/* line 131, ../Relvise/src/sass/style.sass */
+.main-block__button_orange {
+  background: #FF7B47;
+}
+
+/* line 133, ../Relvise/src/sass/style.sass */
+.main-block__button_orange:hover {
+  color: #FF7B47;
+  background: #FFF;
+}
+
+/* line 137, ../Relvise/src/sass/style.sass */
+.main-block__button_border {
+  border: 1px solid #0D5C63;
+  color: #0D5C63;
+}
+
+/* line 140, ../Relvise/src/sass/style.sass */
+.main-block__button_border:hover {
+  color: #FFF;
+  background: #0D5C63;
+}
+
+/* line 151, ../Relvise/src/sass/style.sass */
+.services__column {
+  flex: 0 1 33.333%;
+  margin: 0 0 30px 0;
+}
+
+/* line 157, ../Relvise/src/sass/style.sass */
+.services__item {
+  height: 100%;
+  box-shadow: 0px 13px 19px 0px #00000012;
+  background: #FFF;
+  padding: 35px;
+}
+
+/* line 162, ../Relvise/src/sass/style.sass */
+.services__item > *:not(:last-child) {
+  margin: 0 0 10px 0;
+}
+
+/* line 164, ../Relvise/src/sass/style.sass */
+.services__item_blue {
+  background: #0D5C63;
+  color: #fff;
+}
+
+/* line 169, ../Relvise/src/sass/style.sass */
+.item-service__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: calc(32/24*100%);
+  letter-spacing: 0.1px;
+}
+
+/* line 174, ../Relvise/src/sass/style.sass */
+.item-service__text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(20/14*100%);
+}
+
+/* line 180, ../Relvise/src/sass/style.sass */
+.advantages {
+  padding: 80px 0;
+}
+
+/* line 182, ../Relvise/src/sass/style.sass */
+.advantages__body {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px -30px;
+}
+
+/* line 186, ../Relvise/src/sass/style.sass */
+.advantages__column {
+  flex: 0 1 25%;
+  padding: 0 15px;
+  margin: 0 0 30px 0;
+}
+
+/* line 190, ../Relvise/src/sass/style.sass */
+.advantages__item {
+  text-align: center;
+  padding: 30px;
+  background: #FFFFFF;
+}
+
+/* line 194, ../Relvise/src/sass/style.sass */
+.advantages__item > *:not(:last-child) {
+  margin: 0 0 10px 0;
+}
+
+/* line 196, ../Relvise/src/sass/style.sass */
+.advantages__icon {
+  height: 48px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+/* line 201, ../Relvise/src/sass/style.sass */
+.advantages__header {
+  margin: 0 0 50px 0;
+}
+
+/* line 203, ../Relvise/src/sass/style.sass */
+.advantages__value {
+  font-size: 40px;
+  line-height: 142%;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+
+/* line 208, ../Relvise/src/sass/style.sass */
+.advantages__text {
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 700;
+}
+
+/* line 212, ../Relvise/src/sass/style.sass */
+.header-block__title:not(:last-child) {
+  margin: 0 0 10px 0;
+}
+
+/* line 214, ../Relvise/src/sass/style.sass */
+.header-block {
+  text-align: center;
+}
+
+/* line 217, ../Relvise/src/sass/style.sass */
+.header-block__title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 142%;
+  letter-spacing: 0.2px;
+  color: #252B42;
+}
+
+/* line 223, ../Relvise/src/sass/style.sass */
+.header-block__subtitle {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 142%;
+}
+
+/* line 228, ../Relvise/src/sass/style.sass */
+.advices {
+  padding: 125px 0 80px 0;
+}
+
+/* line 230, ../Relvise/src/sass/style.sass */
+.advices__header {
+  margin: 0 0 60px 0;
+}
+
+/* line 232, ../Relvise/src/sass/style.sass */
+.advices__body {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px -30px;
+}
+
+/* line 236, ../Relvise/src/sass/style.sass */
+.advices__column {
+  flex: 0 1 25%;
+  padding: 0 15px;
+  margin: 0 0 30px 0;
+}
+
+/* line 242, ../Relvise/src/sass/style.sass */
+.item-advices {
+  display: flex;
+  flex-direction: column;
+  background: #FFFFFF;
+  height: 100%;
+}
+
+/* line 247, ../Relvise/src/sass/style.sass */
+.item-advices__content {
+  padding: 30px;
+  flex: 1 1 auto;
+}
+
+/* line 250, ../Relvise/src/sass/style.sass */
+.item-advices__title {
+  font-weight: 700;
+  color: #252B42;
+  letter-spacing: 0.1px;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+/* line 256, ../Relvise/src/sass/style.sass */
+.item-advices__text {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 142%;
+}
+
+/* line 260, ../Relvise/src/sass/style.sass */
+.item-advices__link {
+  display: inline-block;
+}
+
+/* line 262, ../Relvise/src/sass/style.sass */
+.item-advices__link:not(:last-child) {
+  margin: 0 0 15px 0;
+}
+
+/* line 264, ../Relvise/src/sass/style.sass */
+.item-advices__img {
+  display: block;
+  padding: 0 0 58% 0;
+}
+
+/* line 268, ../Relvise/src/sass/style.sass */
+.whoweare {
+  background: #FFFFFF;
+  padding: 80px 0 136px 0;
+}
+
+/* line 271, ../Relvise/src/sass/style.sass */
+.whoweare__header {
+  margin: 0 0 100px 0;
+}
+
+/* line 273, ../Relvise/src/sass/style.sass */
+.whoweare__title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 142%;
+  letter-spacing: 0.2px;
+}
+
+/* line 278, ../Relvise/src/sass/style.sass */
+.whoweare__title:not(:last-child) {
+  margin: 0 0 10px 0;
+}
+
+/* line 280, ../Relvise/src/sass/style.sass */
+.whoweare__text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 142%;
+}
+
+/* line 284, ../Relvise/src/sass/style.sass */
+.whoweare__body {
+  display: flex;
+  align-items: flex-start;
+}
+
+/* line 287, ../Relvise/src/sass/style.sass */
+.whoweare__video {
+  flex: 0 0 57%;
+  position: relative;
+  padding: 0 0 42.25% 0;
+}
+
+/* line 292, ../Relvise/src/sass/style.sass */
+.whoweare__video iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  object-fit: cover;
+}
+
+/* line 299, ../Relvise/src/sass/style.sass */
+.whoweare__main-info:not(:last-child) {
+  margin: 0 0 50px 0;
+}
+
+/* line 301, ../Relvise/src/sass/style.sass */
+.whoweare__content {
+  flex: 1 1 auto;
+  padding: 0 0 0 121px;
+}
+
+/* line 304, ../Relvise/src/sass/style.sass */
+.whoweare__items {
+  padding: 50px 0 0 0;
+}
+
+/* line 308, ../Relvise/src/sass/style.sass */
+.item-whoweare__secret {
+  display: flex;
+}
+
+/* line 310, ../Relvise/src/sass/style.sass */
+.item-whoweare__title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.1px;
+}
+
+/* line 315, ../Relvise/src/sass/style.sass */
+.item-whoweare__title:not(last-child) {
+  margin: 0 0 5px 0;
+}
+
+/* line 317, ../Relvise/src/sass/style.sass */
+.item-whoweare__text {
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  font-size: 14px;
+  line-height: 150%;
+  width: 225px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* line 326, ../Relvise/src/sass/style.sass */
+.item-whoweare__icon {
+  flex: 0 0 32px;
+}
+
+/* line 328, ../Relvise/src/sass/style.sass */
+.item-whoweare__body {
+  flex: 1 1 auto;
+  padding: 0 0 0 20px;
+}
+
+/* line 332, ../Relvise/src/sass/style.sass */
+.clients {
+  padding: 50px 0;
+}
+
+/* line 334, ../Relvise/src/sass/style.sass */
+.clients__items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* line 340, ../Relvise/src/sass/style.sass */
+.clients__item {
+  padding: 8px 10px;
+  flex: 0 1 16.6667%;
+  text-align: center;
+  min-width: 140px;
+}
+
+/* line 345, ../Relvise/src/sass/style.sass */
+.clients__item img {
+  max-width: 100%;
+}
+
+/* line 347, ../Relvise/src/sass/style.sass */
+.page__clients {
+  margin: 0 0 20px 0;
+}
+
+/* line 350, ../Relvise/src/sass/style.sass */
+.subscribe::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background: #252B42;
+  height: 77px;
+}
+
+/* line 358, ../Relvise/src/sass/style.sass */
+.subscribe {
+  position: relative;
+  padding: 0 0 20px 0;
+}
+
+/* line 362, ../Relvise/src/sass/style.sass */
+.subscribe__body {
+  position: relative;
+  z-index: 2;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 50px;
+  background: #17213C;
+  border-radius: 2px;
+  margin: 0 30px;
+}
+
+/* line 372, ../Relvise/src/sass/style.sass */
+.subscribe__title {
+  flex: 0 1 50%;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 141%;
+  letter-spacing: 0.1px;
+}
+
+/* line 379, ../Relvise/src/sass/style.sass */
+.subscribe__input-form {
+  flex: 1 1 auto;
+  width: 100%;
+  background: #F9F9F9;
+  min-height: 58px;
+  padding: 0 20px;
+  border: 1px solid #E6E6E6;
+  border-right: none;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.2px;
+}
+
+/* line 390, ../Relvise/src/sass/style.sass */
+.subscribe__input-form:focus {
+  color: #000;
+}
+
+/* line 392, ../Relvise/src/sass/style.sass */
+.subscribe__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 58px;
+  background: #FF7B47;
+  border: 1px;
+  padding: 15px 22px;
+  font-size: 14px;
+  color: #FFF;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.2px;
+  border-radius: 0px 5px 5px 0px;
+  cursor: pointer;
+}
+
+/* line 408, ../Relvise/src/sass/style.sass */
+.subscribe__btn:hover {
+  background: #d45f31;
+}
+
+/* line 410, ../Relvise/src/sass/style.sass */
+.subscribe__form {
+  display: flex;
+  flex: 0 1 50%;
+  max-width: 450px;
+}
+
+/* line 417, ../Relvise/src/sass/style.sass */
+.page__getintouch {
+  margin: 0 0  148px 0;
+}
+
+/* line 420, ../Relvise/src/sass/style.sass */
+.getintouch__header {
+  margin: 80px 0;
+}
+
+/* line 422, ../Relvise/src/sass/style.sass */
+.getintouch__body {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 0 15px;
+}
+
+/* line 428, ../Relvise/src/sass/style.sass */
+.getintouch__column {
+  display: flex;
+  flex: 0 1 33.333%;
+  background: #FFFFFF;
+  text-align: center;
+}
+
+/* line 433, ../Relvise/src/sass/style.sass */
+.getintouch__column_blue {
+  background: #252B42;
+  color: #FFFFFF;
+}
+
+/* line 436, ../Relvise/src/sass/style.sass */
+.getintouch__item {
+  padding: 50px 50px;
+}
+
+/* line 438, ../Relvise/src/sass/style.sass */
+.getintouch__item_blue {
+  padding: 80px 40px;
+}
+
+/* line 440, ../Relvise/src/sass/style.sass */
+.item-getintouch {
+  flex: 1 1 auto;
+}
+
+/* line 442, ../Relvise/src/sass/style.sass */
+.item-getintouch > *:not(:last-child) {
+  margin: 0 0 15px 0;
+}
+
+/* line 444, ../Relvise/src/sass/style.sass */
+.item-getintouch__icon {
+  display: flex;
+  height: 72px;
+  flex-direction: flex-end;
+  justify-content: center;
+}
+
+/* line 449, ../Relvise/src/sass/style.sass */
+.item-getintouch__links {
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 452, ../Relvise/src/sass/style.sass */
+.item-getintouch__link {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.2px;
+}
+
+/* line 457, ../Relvise/src/sass/style.sass */
+.item-getintouch__title {
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.1px;
+  line-height: 150%;
+}
+
+/* line 462, ../Relvise/src/sass/style.sass */
+.item-getintouch__btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid #FF7B47;
+  color: #FF7B47;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.2px;
+  border-radius: 5px;
+  transition: all 0.3s ease 0s;
+}
+
+/* line 473, ../Relvise/src/sass/style.sass */
+.item-getintouch__btn:hover {
+  background: #FF7B47;
+  color: #FFFFFF;
+}
+
+/* line 476, ../Relvise/src/sass/style.sass */
+.item-getintouch__btn_white {
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+}
+
+/* line 479, ../Relvise/src/sass/style.sass */
+.item-getintouch__btn_white:hover {
+  background: #68729c;
+}
+
+/* line 483, ../Relvise/src/sass/style.sass */
+.contactus {
+  background: #FFFFFF;
+  padding: 40px 0;
+}
+
+/* line 486, ../Relvise/src/sass/style.sass */
+.contactus__body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* line 491, ../Relvise/src/sass/style.sass */
+.contactus__content {
+  flex: 1 1 auto;
+  padding: 0 60px 0 0;
+}
+
+/* line 494, ../Relvise/src/sass/style.sass */
+.contactus__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 133%;
+  letter-spacing: 0.1px;
+}
+
+/* line 499, ../Relvise/src/sass/style.sass */
+.contactus__title:not(:last-child) {
+  margin: 0 0 10px 0;
+}
+
+/* line 501, ../Relvise/src/sass/style.sass */
+.contactus__text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 142%;
+}
+
+/* line 505, ../Relvise/src/sass/style.sass */
+.contactus__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  border: none;
+  background: #FF7B47;
+  padding: 15px 40px;
+  margin: 0 38px 0 0;
+  min-height: 58px;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  line-height: 150%;
+  transition: all 0.3s ease 0;
+}
+
+/* line 522, ../Relvise/src/sass/style.sass */
+.contactus__btn:hover {
+  background: #ec5e26;
+  border-radius: 10px;
+}
+
+/* line 527, ../Relvise/src/sass/style.sass */
+.footer__copy {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 171%;
+}
+
+/* line 531, ../Relvise/src/sass/style.sass */
+.footer__top {
+  background: #17213C;
+  padding: 50px 0;
+}
+
+/* line 534, ../Relvise/src/sass/style.sass */
+.footer__row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+/* line 538, ../Relvise/src/sass/style.sass */
+.footer__column {
+  flex: 0 1 16.667%;
+  padding: 0 15px;
+}
+
+/* line 541, ../Relvise/src/sass/style.sass */
+.footer__column:last-child {
+  flex: 0 1 33.334%;
+}
+
+/* line 543, ../Relvise/src/sass/style.sass */
+.footer__label {
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.1px;
+  margin: 0 0 20px 0;
+}
+
+@media (max-width: 901px) {
+  /* line 551, ../Relvise/src/sass/style.sass */
+  .footer__column {
+    flex: 1 1 20%;
+    padding: 20px 15px;
+  }
+  /* line 554, ../Relvise/src/sass/style.sass */
+  .footer__column:last-child {
+    flex: 1 1 auto;
+  }
+  /* line 556, ../Relvise/src/sass/style.sass */
+  .footer__top {
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 691px) {
+  /* line 559, ../Relvise/src/sass/style.sass */
+  .footer__column {
+    flex: 1 1 auto;
+  }
+}
+
+/* line 561, ../Relvise/src/sass/style.sass */
+.menu-footer__link:hover {
+  text-decoration: underline;
+}
+
+/* line 563, ../Relvise/src/sass/style.sass */
+.contacts__footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+/* line 567, ../Relvise/src/sass/style.sass */
+.contacts__footer__item {
+  padding: 0 0 0 34px;
+  display: flex;
+  align-items: center;
+  line-height: 142%;
+  min-height: 29.25px;
+}
+
+/* line 573, ../Relvise/src/sass/style.sass */
+.contacts__footer__item:hover {
+  text-decoration: underline;
+}
+
+/* line 575, ../Relvise/src/sass/style.sass */
+.contacts__footer__item_phone {
+  background: url("../img/footer/1.svg") left no-repeat;
+}
+
+/* line 577, ../Relvise/src/sass/style.sass */
+.contacts__footer__item_map {
+  background: url("../img/footer/2.svg") left no-repeat;
+}
+
+/* line 579, ../Relvise/src/sass/style.sass */
+.contacts__footer__item_email {
+  background: url("../img/footer/3.svg") left no-repeat;
+}
+
+/* line 581, ../Relvise/src/sass/style.sass */
+.contacts__footer__item:not(:last-child) {
+  margin: 0 0 12px 0;
+}
+
+/* line 584, ../Relvise/src/sass/style.sass */
+.menu-footer__link {
+  color: #FFF;
+  display: inline-block;
+  line-height: 171%;
+}
+
+/* line 588, ../Relvise/src/sass/style.sass */
+.menu-footer__item:not(:last-child) {
+  margin: 0 0 10px 0;
+}
+
+/* line 591, ../Relvise/src/sass/style.sass */
+.contacts__footer__item {
+  color: #FFF;
+}
+
+/* line 593, ../Relvise/src/sass/style.sass */
+.footer__bottom {
+  padding: 25px 0;
+}
+
+/* line 597, ../Relvise/src/sass/style.sass */
+.social__item:not(:last-child) {
+  margin: 0 20px 0 0;
+}
+
+/* line 599, ../Relvise/src/sass/style.sass */
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  /* line 604, ../Relvise/src/sass/style.sass */
+  .main-block__body > *:not(:last-child) {
+    margin: 0 0 18px 0;
+  }
+  /* line 606, ../Relvise/src/sass/style.sass */
+  .footer__container {
+    flex-direction: column;
+  }
+  /* line 608, ../Relvise/src/sass/style.sass */
+  .footer__copy {
+    text-align: center;
+    margin: 0 0 10px 0;
+  }
+}
+
+@media (max-width: 1000px) {
+  /* line 612, ../Relvise/src/sass/style.sass */
+  .page__getintouch {
+    margin: 0 0 100px 0;
+  }
+}
+
+@media (max-width: 510px) {
+  /* line 615, ../Relvise/src/sass/style.sass */
+  .page__getintouch {
+    margin: 0 0 20px 0;
+  }
+}
+
+@media (max-width: 1045px) {
+  /* line 618, ../Relvise/src/sass/style.sass */
+  .getintouch__body {
+    margin: 0 -15px;
+  }
+  /* line 620, ../Relvise/src/sass/style.sass */
+  .getintouch__column {
+    flex: 1 1 50%;
+  }
+  /* line 622, ../Relvise/src/sass/style.sass */
+  .getintouch__column:last-child {
+    flex: 1 1 100%;
+  }
+  /* line 624, ../Relvise/src/sass/style.sass */
+  .getintouch__item_blue {
+    padding: 50px 53px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 627, ../Relvise/src/sass/style.sass */
+  .clients {
+    padding: 0;
+  }
+  /* line 630, ../Relvise/src/sass/style.sass */
+  .getintouch__column {
+    flex: 1 1 100%;
+  }
+  /* line 632, ../Relvise/src/sass/style.sass */
+  .contactus__body {
+    justify-content: center;
+  }
+  /* line 634, ../Relvise/src/sass/style.sass */
+  .contactus__content {
+    text-align: center;
+    padding: 0 20px 0 0;
+    margin: 0 0 20px 0;
+  }
+  /* line 638, ../Relvise/src/sass/style.sass */
+  .contactus__btn {
+    margin: 0;
+  }
+}
+
+@media (min-width: 1070px) {
+  /* line 643, ../Relvise/src/sass/style.sass */
+  .subscribe__body {
+    margin: 0 30px;
+  }
+}
+
+@media (min-width: 810px) {
+  /* line 646, ../Relvise/src/sass/style.sass */
+  .subscribe__body {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 810px) {
+  /* line 650, ../Relvise/src/sass/style.sass */
+  .subscribe__title {
+    margin: 0 0 10px 0;
+  }
+  /* line 652, ../Relvise/src/sass/style.sass */
+  .subscribe__body {
+    padding: 20px 25px;
+    margin: 0 -15px;
+  }
+}
+
+@media (max-width: 1090px) {
+  /* line 656, ../Relvise/src/sass/style.sass */
+  .whoweare__content {
+    padding: 0px 0 0 80px;
+  }
+  /* line 658, ../Relvise/src/sass/style.sass */
+  .whoweare__items {
+    padding: 25px 0 0 0;
+  }
+}
+
+@media (max-width: 999px) {
+  /* line 661, ../Relvise/src/sass/style.sass */
+  .whoweare__body {
+    flex-direction: column-reverse;
+    align-items: stretch;
+  }
+  /* line 664, ../Relvise/src/sass/style.sass */
+  .whoweare__content {
+    padding: 0px 0 0 0px;
+  }
+  /* line 667, ../Relvise/src/sass/style.sass */
+  .whoweare {
+    padding: 40px 0 px 0;
+  }
+  /* line 669, ../Relvise/src/sass/style.sass */
+  .whoweare__header {
+    margin: 0 0 60px 0;
+  }
+  /* line 671, ../Relvise/src/sass/style.sass */
+  .whoweare__title {
+    font-size: 30px;
+  }
+  /* line 673, ../Relvise/src/sass/style.sass */
+  .whoweare__video {
+    padding: 0 0 56.25% 0;
+  }
+  /* line 675, ../Relvise/src/sass/style.sass */
+  .item-whoweare__secret:last-child {
+    margin: 0 0 20px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 678, ../Relvise/src/sass/style.sass */
+  .whoweare__main-info:not(:last-child) {
+    margin: 0 0 25px 0;
+  }
+}
+
+@media (max-width: 1017px) {
+  /* line 682, ../Relvise/src/sass/style.sass */
+  .advices__column {
+    flex: 0 1 50%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1045px) {
+  /* line 686, ../Relvise/src/sass/style.sass */
+  .advantages__column {
+    flex: 0 1 50%;
+  }
+  /* line 688, ../Relvise/src/sass/style.sass */
+  .advices {
+    padding: 80px 0 60px 0;
+  }
+}
+
+@media (max-width: 631px) {
+  /* line 692, ../Relvise/src/sass/style.sass */
+  .advantages__column {
+    flex: 0 1 100%;
+  }
+  /* line 694, ../Relvise/src/sass/style.sass */
+  .advices__column {
+    flex: 0 1 100%;
+  }
+  /* line 696, ../Relvise/src/sass/style.sass */
+  .advices {
+    padding: 20px 0 20px 0;
+  }
+  /* line 699, ../Relvise/src/sass/style.sass */
+  .header-block__title {
+    font-size: 36px;
+  }
+}
+
+@media (min-width: 680px) {
+  /* line 702, ../Relvise/src/sass/style.sass */
+  .services__body {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px -30px;
+  }
+  /* line 706, ../Relvise/src/sass/style.sass */
+  .services__column {
+    padding: 0 15px;
+  }
+}
+
+@media (max-width: 384px) {
+  /* line 711, ../Relvise/src/sass/style.sass */
+  .main-block__button {
+    flex: 1 1 auto;
+  }
+  /* line 713, ../Relvise/src/sass/style.sass */
+  .main-block__button:not(:last-child) {
+    margin: 0 0 10px 0;
+  }
+}
+
+@media (max-width: 1014px) {
+  /* line 716, ../Relvise/src/sass/style.sass */
+  .main-block__img {
+    opacity: 0.5;
+  }
+}
+
+@media (max-width: 1472px) {
+  /* line 719, ../Relvise/src/sass/style.sass */
+  .main-block__img {
+    object-position: right;
+  }
+}
+
+@media (max-width: 992px) {
+  /* line 722, ../Relvise/src/sass/style.sass */
+  .advantages {
+    padding: 40px 0;
+  }
+  /* line 725, ../Relvise/src/sass/style.sass */
+  .services__column {
+    flex: 0 1 50%;
+  }
+  /* line 727, ../Relvise/src/sass/style.sass */
+  .services__column:last-child {
+    flex: 1 1 100%;
+    text-align: center;
+  }
+  /* line 731, ../Relvise/src/sass/style.sass */
+  .header__logo {
+    margin: 0 80px 0 0;
+  }
+  /* line 733, ../Relvise/src/sass/style.sass */
+  .main-block__body {
+    padding: 160px 0 191px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 738, ../Relvise/src/sass/style.sass */
+  .header__logo {
+    margin: 0 40px 0 0;
+  }
+}
+
+@media (max-width: 515px) {
+  /* line 741, ../Relvise/src/sass/style.sass */
+  .main-block__title {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 479px) {
+  /* line 746, ../Relvise/src/sass/style.sass */
+  .header__container {
+    min-height: 70px;
+  }
+  /* line 748, ../Relvise/src/sass/style.sass */
+  .header__logo {
+    margin: 0 20px 0 0;
+  }
+  /* line 750, ../Relvise/src/sass/style.sass */
+  .menu__link {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 753, ../Relvise/src/sass/style.sass */
+  .menu__list-item:not(:last-child) {
+    margin: 0 0px 0 0;
+  }
+  /* line 756, ../Relvise/src/sass/style.sass */
+  .menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100%;
+    width: 50%;
+    background: #0D5C63;
+    box-shadow: 1px 1px 1px black;
+    z-index: 20;
+    transition: 0.6s all;
+  }
+  /* line 766, ../Relvise/src/sass/style.sass */
+  .menu__list {
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    align-items: center;
+  }
+  /* line 771, ../Relvise/src/sass/style.sass */
+  .menu__link {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #FFF;
+  }
+  /* line 776, ../Relvise/src/sass/style.sass */
+  .hamburger {
+    width: 30px;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    min-height: 30px;
+    z-index: 40;
+  }
+  /* line 783, ../Relvise/src/sass/style.sass */
+  .hamburger span {
+    position: relative;
+    display: block;
+    background: #387a80;
+    height: 2px;
+    width: 100%;
+    z-index: 2;
+    margin-bottom: 4px;
+    transition: 1s all;
+  }
+  /* line 792, ../Relvise/src/sass/style.sass */
+  .hamburger span:last-child {
+    margin-bottom: 0px;
+  }
+  /* line 795, ../Relvise/src/sass/style.sass */
+  .hamburger_active span {
+    margin-bottom: -2px;
+  }
+  /* line 797, ../Relvise/src/sass/style.sass */
+  .hamburger_active span:nth-child(1) {
+    transform: translateY(3px) rotate(-45deg);
+  }
+  /* line 799, ../Relvise/src/sass/style.sass */
+  .hamburger_active span:nth-child(2) {
+    display: none;
+  }
+  /* line 801, ../Relvise/src/sass/style.sass */
+  .hamburger_active span:nth-child(3) {
+    transform: translateY(3px) rotate(45deg);
+  }
+  /* line 803, ../Relvise/src/sass/style.sass */
+  .menu_active {
+    right: 0;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
